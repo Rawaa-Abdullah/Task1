@@ -1,0 +1,20 @@
+.redText{
+    color: rgb(236, 34, 34);
+}
+.greenText{
+    color: #15de06;
+}
+.background_red{
+    background-color: red;
+
+}
+.background_green{
+    background-color: green;
+}
+.Pass_Fall{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid;
+  }
+  

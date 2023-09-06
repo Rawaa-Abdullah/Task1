@@ -1,0 +1,19 @@
+
+<h1 style="text-align:center;"> Welcome! {{name}}</h1>
+<img src="assets/Itec.png" alt="itec" class="center"  > 
+<div [style.background-color]="colorFunction()">
+  </div>
+
+  <input type="text" class = "imgUrlText" size = "30" id = "urlText" placeholder = "write your name" #v (keyup)="myText(v.value)">
+  <h2 style="text-align: center;"> Hello {{ourText}}</h2>  
+  <hr>
+  <nav class="navbar navbar-light bg-light">
+    <div class="main-div"> Itec Angular Classes<div>
+      <ul class="ul-div">
+        <li [routerLink]= "['/Home']" > Home</li>
+        <li [routerLink]= "['/Student']" >Student</li>
+        <li [routerLink]= "['/AboutUS']" >AboutUS</li> 
+      </ul>
+    </div></div>
+  </nav>
+<router-outlet></router-outlet>
